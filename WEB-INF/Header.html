@@ -1,0 +1,50 @@
+<!--
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+
+$(document).ready(function(){
+$('#myCarousel').carousel({
+interval: 3000
+})
+$('.carousel .item').each(function(){
+var next = $(this).next();
+if (!next.length) {
+next = $(this).siblings(':first');
+}
+next.children(':first-child').clone().appendTo($(this));
+});
+});
+-->
+
+<html>
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+	<title>Smartportables</title> 
+	<link rel='shortcut icon' href='cart/icon.jpg'/> 
+	<link rel='stylesheet' href='styles.css' type='text/css' /> 
+</head> 
+
+<body> 
+	 <div id='container'> 
+	 <header> 
+	 <h1><a href='/'><i>SmartPortables</i></a></h1> 
+	 </header> 
+	 
+	 <nav> 
+	 <ul> 
+		<li class='start selected'><a href='Home'>Home</a></li> 
+		<li class=''><a href='smartwatches'>Smart Watches</a></li> 
+		<li class=''><a href='speakers'>Speakers</a></li> 
+		<li class=''><a href='headphones'>Headphones</a></li> 
+		<li class=''><a href='phones'>Phones</a></li>
+		<li class=''><a href='laptops'>Laptops</a></li>
+		<li class=''><a href='external'>External Storage</a></li>
+		<li class=''><a href='register'>Register</a></li>
+		<li class=''><a href='signin'>Sign in</a></li>
+	 </ul>
+	 </nav>
+</body>
+</html>	 
+	 
