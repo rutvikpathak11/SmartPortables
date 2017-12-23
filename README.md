@@ -9,7 +9,7 @@ password : meet
 
 Before running the application, CLASSPATH variable should be set with MySQL jar for database connection.
 
-Copy Assignment5 folder and store in 'C:\apache-tomcat-7.0.34\webapps' path.
+Copy all above files in a folder named 'SmartPortables' and copy the SmartPortables folder store in 'C:\apache-tomcat-7.0.34\webapps' in your system.
 
 All the servlets are stored in WEB-INF folder and they can be compiled together with 'javac *.java' command in the command prompt.
 
